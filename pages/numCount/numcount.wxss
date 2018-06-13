@@ -1,0 +1,9 @@
+/* pages/numCount/numcount.wxss */
+.container{
+  display: flex;
+  
+}
+.list{
+  /* width: 240rpx;
+  height: 240rpx; */
+}

@@ -1,0 +1,15 @@
+<!--pages/numCount/numcount.wxml-->
+<!-- <view>
+  <button bindtap='numDec'>-</button>
+  <text class='center'>{{count}}</text>
+  <button bindtap='numAdd'>+</button>
+
+
+  <button bindtap='getMsg'>获取</button>
+</view> -->
+<view class='container'>
+  <view wx:for='{{list}}' wx:key="{{index}}" class='list'>
+    <image src='{{IP1+item.img}}' bindtap='getSong'></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>
